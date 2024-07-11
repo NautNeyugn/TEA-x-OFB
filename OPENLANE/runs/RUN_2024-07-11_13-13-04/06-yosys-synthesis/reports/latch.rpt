@@ -1,0 +1,11 @@
+
+15. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\TEA.\data_out' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\v0' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\v1' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\sum' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\k0' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\k1' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\k2' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\k3' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.
+No latch inferred for signal `\TEA.\i' from process `\TEA.$proc$/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/TEA.v:12$4'.

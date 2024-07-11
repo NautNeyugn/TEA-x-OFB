@@ -1,0 +1,30 @@
+digraph "OFB" {
+label="OFB";
+rankdir="LR";
+remincross=true;
+n4 [ shape=diamond, label="tea_out", color="black", fontcolor="black" ];
+n5 [ shape=diamond, label="feedback", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="data_out", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="reset", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="iv", color="black", fontcolor="black" ];
+n10 [ shape=octagon, label="key", color="black", fontcolor="black" ];
+n11 [ shape=octagon, label="data_in", color="black", fontcolor="black" ];
+c15 [ shape=record, label="{{<p12> A|<p13> B}|$2\n$xor|{<p14> Y}}",  ];
+c16 [ shape=record, label="{{<p11> data_in|<p10> key}|tea\nTEA|{<p6> data_out}}",  ];
+p0 [shape=box, style=rounded, label="PROC $1\n/home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/src/OFB.v:20.5-28.8", ];
+c15:p14:e -> p0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n10:e -> c16:p10:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n11:e -> c15:p12:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+c16:p6:e -> n4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> c15:p13:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> p0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+p0:e -> n5:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n5:e -> c16:p11:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n5:e -> p0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+p0:e -> n6:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n6:e -> p0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n7:e -> p0:w [color="black", fontcolor="black", label=""];
+n8:e -> p0:w [color="black", fontcolor="black", label=""];
+n9:e -> p0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+}

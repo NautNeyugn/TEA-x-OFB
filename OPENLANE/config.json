@@ -1,0 +1,6 @@
+{
+  "DESIGN_NAME": "OFB",
+  "VERILOG_FILES": "dir::src/*.v",
+  "CLOCK_PERIOD": 25,
+  "CLOCK_PORT": "clk"
+}

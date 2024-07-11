@@ -1,0 +1,1697 @@
+
+Magic 8.3 revision 466 - Compiled on Thu Mar 21 17:31:46 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/nix/store/ahslliw018a3nmh2fi1znjfxvy4m8xzn-python3-3.11.6-env/lib/python3.11/site-packages/openlane/scripts/magic/wrapper.tcl" from command line.
+> gds read /home/phuong-nguyen/.volare/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_fd_sc_hd
+Reading "sky130_fd_sc_hd__or4bb_4".
+Reading "sky130_fd_sc_hd__probe_p_8".
+Reading "sky130_fd_sc_hd__probec_p_8".
+Reading "sky130_fd_sc_hd__sdfbbn_1".
+Reading "sky130_fd_sc_hd__sdfsbp_2".
+Reading "sky130_fd_sc_hd__sdfsbp_1".
+Reading "sky130_fd_sc_hd__sdfrtp_4".
+Reading "sky130_fd_sc_hd__sdfrtp_2".
+Reading "sky130_fd_sc_hd__sdfrtp_1".
+Reading "sky130_fd_sc_hd__sdfrtn_1".
+Reading "sky130_fd_sc_hd__sdfrbp_2".
+Reading "sky130_fd_sc_hd__sdfrbp_1".
+Reading "sky130_fd_sc_hd__sdfbbp_1".
+Reading "sky130_fd_sc_hd__sdfbbn_2".
+Reading "sky130_fd_sc_hd__sdfstp_1".
+Reading "sky130_fd_sc_hd__sdfstp_2".
+Reading "sky130_fd_sc_hd__sdfstp_4".
+Reading "sky130_fd_sc_hd__sdfxbp_1".
+Reading "sky130_fd_sc_hd__sdfxbp_2".
+Reading "sky130_fd_sc_hd__sdfxtp_1".
+Reading "sky130_fd_sc_hd__sdfxtp_2".
+Reading "sky130_fd_sc_hd__sdfxtp_4".
+Reading "sky130_fd_sc_hd__sdlclkp_1".
+Reading "sky130_fd_sc_hd__sdlclkp_2".
+Reading "sky130_fd_sc_hd__sdlclkp_4".
+Reading "sky130_fd_sc_hd__sedfxbp_1".
+Reading "sky130_fd_sc_hd__sedfxbp_2".
+Reading "sky130_fd_sc_hd__sedfxtp_1".
+Reading "sky130_fd_sc_hd__sedfxtp_2".
+Reading "sky130_fd_sc_hd__sedfxtp_4".
+Reading "sky130_fd_sc_hd__tap_1".
+Reading "sky130_fd_sc_hd__tap_2".
+Reading "sky130_fd_sc_hd__xor2_1".
+Reading "sky130_fd_sc_hd__xnor3_4".
+Reading "sky130_fd_sc_hd__xnor3_2".
+Reading "sky130_fd_sc_hd__xnor3_1".
+Reading "sky130_fd_sc_hd__xnor2_4".
+Reading "sky130_fd_sc_hd__xnor2_2".
+Reading "sky130_fd_sc_hd__xnor2_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__tapvgnd_1".
+Reading "sky130_fd_sc_hd__tapvgnd2_1".
+Reading "sky130_fd_sc_hd__xor2_2".
+Reading "sky130_fd_sc_hd__xor2_4".
+Reading "sky130_fd_sc_hd__xor3_1".
+Reading "sky130_fd_sc_hd__xor3_2".
+Reading "sky130_fd_sc_hd__xor3_4".
+Reading "sky130_fd_sc_hd__o41a_4".
+Reading "sky130_fd_sc_hd__o41ai_1".
+Reading "sky130_fd_sc_hd__o41ai_2".
+Reading "sky130_fd_sc_hd__o41ai_4".
+Reading "sky130_fd_sc_hd__o211a_1".
+Reading "sky130_fd_sc_hd__o211a_2".
+Reading "sky130_fd_sc_hd__o211a_4".
+Reading "sky130_fd_sc_hd__o211ai_1".
+Reading "sky130_fd_sc_hd__o211ai_2".
+Reading "sky130_fd_sc_hd__o211ai_4".
+Reading "sky130_fd_sc_hd__o221a_1".
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__o221a_4".
+Reading "sky130_fd_sc_hd__o221ai_1".
+Reading "sky130_fd_sc_hd__o221ai_2".
+Reading "sky130_fd_sc_hd__o221ai_4".
+Reading "sky130_fd_sc_hd__o2111a_4".
+Reading "sky130_fd_sc_hd__o2111a_2".
+Reading "sky130_fd_sc_hd__o2111a_1".
+Reading "sky130_fd_sc_hd__o311ai_4".
+Reading "sky130_fd_sc_hd__o311ai_2".
+Reading "sky130_fd_sc_hd__o311ai_1".
+Reading "sky130_fd_sc_hd__o311ai_0".
+Reading "sky130_fd_sc_hd__o311a_4".
+Reading "sky130_fd_sc_hd__o311a_2".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__o2111ai_1".
+Reading "sky130_fd_sc_hd__o2111ai_2".
+Reading "sky130_fd_sc_hd__o2111ai_4".
+Reading "sky130_fd_sc_hd__or2_0".
+Reading "sky130_fd_sc_hd__or2_1".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__or2_4".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__or2b_2".
+Reading "sky130_fd_sc_hd__or2b_4".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__or3_2".
+Reading "sky130_fd_sc_hd__or3_4".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__or3b_4".
+Reading "sky130_fd_sc_hd__or4_1".
+Reading "sky130_fd_sc_hd__or4_2".
+Reading "sky130_fd_sc_hd__or4_4".
+Reading "sky130_fd_sc_hd__or4b_1".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "sky130_fd_sc_hd__or4b_4".
+Reading "sky130_fd_sc_hd__or4bb_1".
+Reading "sky130_fd_sc_hd__or4bb_2".
+Reading "sky130_fd_sc_hd__nor3b_2".
+Reading "sky130_fd_sc_hd__nor3b_4".
+Reading "sky130_fd_sc_hd__nor4_1".
+Reading "sky130_fd_sc_hd__nor4_2".
+Reading "sky130_fd_sc_hd__nor4_4".
+Reading "sky130_fd_sc_hd__nor4b_1".
+Reading "sky130_fd_sc_hd__nor4b_2".
+Reading "sky130_fd_sc_hd__nor4b_4".
+Reading "sky130_fd_sc_hd__nor4bb_1".
+Reading "sky130_fd_sc_hd__nor4bb_2".
+Reading "sky130_fd_sc_hd__nor4bb_4".
+Moving label "k" from mvpsubdiff to ndiff in cell sky130_fd_sc_hd__nor4bb_4.
+Reading "sky130_fd_sc_hd__o2bb2a_1".
+Reading "sky130_fd_sc_hd__o2bb2a_2".
+Reading "sky130_fd_sc_hd__o2bb2a_4".
+Reading "sky130_fd_sc_hd__o2bb2ai_1".
+Reading "sky130_fd_sc_hd__o2bb2ai_2".
+Reading "sky130_fd_sc_hd__o2bb2ai_4".
+Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__o21a_2".
+Reading "sky130_fd_sc_hd__o21ai_2".
+Reading "sky130_fd_sc_hd__o21ai_1".
+Reading "sky130_fd_sc_hd__o21ai_0".
+Reading "sky130_fd_sc_hd__o21a_4".
+Reading "sky130_fd_sc_hd__o21ba_2".
+Reading "sky130_fd_sc_hd__o21ba_1".
+Reading "sky130_fd_sc_hd__o21ai_4".
+Reading "sky130_fd_sc_hd__o21bai_2".
+Reading "sky130_fd_sc_hd__o21bai_1".
+Reading "sky130_fd_sc_hd__o21ba_4".
+Reading "sky130_fd_sc_hd__o21bai_4".
+Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__o22a_2".
+Reading "sky130_fd_sc_hd__o22a_4".
+Reading "sky130_fd_sc_hd__o22ai_1".
+Reading "sky130_fd_sc_hd__o22ai_2".
+Reading "sky130_fd_sc_hd__o22ai_4".
+Reading "sky130_fd_sc_hd__o31a_1".
+Reading "sky130_fd_sc_hd__o31a_2".
+Reading "sky130_fd_sc_hd__o31a_4".
+Reading "sky130_fd_sc_hd__o31ai_1".
+Reading "sky130_fd_sc_hd__o31ai_2".
+Reading "sky130_fd_sc_hd__o31ai_4".
+Reading "sky130_fd_sc_hd__o32a_1".
+Reading "sky130_fd_sc_hd__o32a_2".
+Reading "sky130_fd_sc_hd__o32a_4".
+Reading "sky130_fd_sc_hd__o32ai_1".
+Reading "sky130_fd_sc_hd__o32ai_2".
+Reading "sky130_fd_sc_hd__o32ai_4".
+Reading "sky130_fd_sc_hd__o41a_1".
+Reading "sky130_fd_sc_hd__o41a_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4".
+Reading "sky130_fd_sc_hd__nor2_2".
+Reading "sky130_fd_sc_hd__nand2_2".
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__macro_sparecell".
+Reading "sky130_fd_sc_hd__maj3_1".
+Reading "sky130_fd_sc_hd__maj3_2".
+Reading "sky130_fd_sc_hd__maj3_4".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "sky130_fd_sc_hd__mux2_8".
+Reading "sky130_fd_sc_hd__mux2i_1".
+Reading "sky130_fd_sc_hd__mux2i_2".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__nand2_4".
+Reading "sky130_fd_sc_hd__nand2_8".
+Reading "sky130_fd_sc_hd__nand2b_1".
+Reading "sky130_fd_sc_hd__mux2i_4".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__mux4_4".
+Reading "sky130_fd_sc_hd__nand2b_2".
+Reading "sky130_fd_sc_hd__nand2b_4".
+Reading "sky130_fd_sc_hd__nand3_1".
+Reading "sky130_fd_sc_hd__nand3_2".
+Reading "sky130_fd_sc_hd__nand3_4".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__nand3b_2".
+Reading "sky130_fd_sc_hd__nand3b_4".
+Reading "sky130_fd_sc_hd__nand4_1".
+Reading "sky130_fd_sc_hd__nand4_2".
+Reading "sky130_fd_sc_hd__nand4_4".
+Reading "sky130_fd_sc_hd__nand4b_1".
+Reading "sky130_fd_sc_hd__nand4b_2".
+Reading "sky130_fd_sc_hd__nand4b_4".
+Reading "sky130_fd_sc_hd__nand4bb_1".
+Reading "sky130_fd_sc_hd__nand4bb_2".
+Reading "sky130_fd_sc_hd__nand4bb_4".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__nor2_8".
+Reading "sky130_fd_sc_hd__nor2b_1".
+Reading "sky130_fd_sc_hd__nor2b_2".
+Reading "sky130_fd_sc_hd__nor2b_4".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__nor3_4".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__einvp_1".
+Reading "sky130_fd_sc_hd__einvp_2".
+Reading "sky130_fd_sc_hd__einvp_4".
+Reading "sky130_fd_sc_hd__einvp_8".
+Reading "sky130_fd_sc_hd__fa_1".
+Reading "sky130_fd_sc_hd__fa_2".
+Reading "sky130_fd_sc_hd__fa_4".
+Reading "sky130_fd_sc_hd__fah_1".
+Reading "sky130_fd_sc_hd__fahcin_1".
+Reading "sky130_fd_sc_hd__fahcon_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__fill_4".
+Reading "sky130_fd_sc_hd__fill_8".
+Reading "sky130_fd_sc_hd__ha_1".
+Reading "sky130_fd_sc_hd__ha_2".
+Reading "sky130_fd_sc_hd__ha_4".
+Reading "sky130_fd_sc_hd__inv_1".
+Reading "sky130_fd_sc_hd__inv_16".
+Reading "sky130_fd_sc_hd__inv_12".
+Reading "sky130_fd_sc_hd__inv_8".
+Reading "sky130_fd_sc_hd__inv_6".
+Reading "sky130_fd_sc_hd__inv_4".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_2".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_1".
+Reading "sky130_fd_sc_hd__lpflow_bleeder_1".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_16".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_1".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_2".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_16".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_3".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_6".
+Reading "sky130_fd_sc_hd__lpflow_inputiso0n_1".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_12".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_inputisolatch_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso1p_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso1n_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso0p_1".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_4".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_2".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_1".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_8".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_16".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrckapwr_16".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__dfrtp_4".
+Reading "sky130_fd_sc_hd__dfsbp_1".
+Reading "sky130_fd_sc_hd__dfsbp_2".
+Reading "sky130_fd_sc_hd__dfstp_1".
+Reading "sky130_fd_sc_hd__dfstp_2".
+Reading "sky130_fd_sc_hd__dfstp_4".
+Reading "sky130_fd_sc_hd__dfxbp_1".
+Reading "sky130_fd_sc_hd__dfxbp_2".
+Reading "sky130_fd_sc_hd__dfxtp_1".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__dfxtp_4".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__dlclkp_1".
+Reading "sky130_fd_sc_hd__dlclkp_2".
+Reading "sky130_fd_sc_hd__dlclkp_4".
+Reading "sky130_fd_sc_hd__dlrbn_1".
+Reading "sky130_fd_sc_hd__dlrbp_1".
+Reading "sky130_fd_sc_hd__dlrtn_1".
+Reading "sky130_fd_sc_hd__dlrtn_2".
+Reading "sky130_fd_sc_hd__dlrbn_2".
+Reading "sky130_fd_sc_hd__dlrbp_2".
+Reading "sky130_fd_sc_hd__dlrtn_4".
+Reading "sky130_fd_sc_hd__dlrtp_1".
+Reading "sky130_fd_sc_hd__dlrtp_2".
+Reading "sky130_fd_sc_hd__dlrtp_4".
+Reading "sky130_fd_sc_hd__dlxbn_1".
+Reading "sky130_fd_sc_hd__dlxbn_2".
+Reading "sky130_fd_sc_hd__dlxbp_1".
+Reading "sky130_fd_sc_hd__dlxtn_1".
+Reading "sky130_fd_sc_hd__dlxtn_2".
+Reading "sky130_fd_sc_hd__dlxtn_4".
+Reading "sky130_fd_sc_hd__dlxtp_1".
+Reading "sky130_fd_sc_hd__dlygate4sd1_1".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1".
+Reading "sky130_fd_sc_hd__dlymetal6s4s_1".
+Reading "sky130_fd_sc_hd__dlymetal6s6s_1".
+Reading "sky130_fd_sc_hd__ebufn_1".
+Reading "sky130_fd_sc_hd__ebufn_2".
+Reading "sky130_fd_sc_hd__ebufn_4".
+Reading "sky130_fd_sc_hd__einvn_0".
+Reading "sky130_fd_sc_hd__einvn_1".
+Reading "sky130_fd_sc_hd__einvn_2".
+Reading "sky130_fd_sc_hd__einvn_4".
+Reading "sky130_fd_sc_hd__ebufn_8".
+Reading "sky130_fd_sc_hd__edfxbp_1".
+Reading "sky130_fd_sc_hd__edfxtp_1".
+Reading "sky130_fd_sc_hd__einvn_8".
+Reading "sky130_fd_sc_hd__and4_4".
+Reading "sky130_fd_sc_hd__and4b_1".
+Reading "sky130_fd_sc_hd__and4b_2".
+Reading "sky130_fd_sc_hd__and4b_4".
+Reading "sky130_fd_sc_hd__and4bb_1".
+Reading "sky130_fd_sc_hd__and4bb_2".
+Reading "sky130_fd_sc_hd__and4bb_4".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__buf_16".
+Reading "sky130_fd_sc_hd__bufbuf_8".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_1".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__bufinv_16".
+Reading "sky130_fd_sc_hd__bufinv_8".
+Reading "sky130_fd_sc_hd__bufbuf_16".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_2".
+Reading "sky130_fd_sc_hd__clkinv_1".
+Reading "sky130_fd_sc_hd__clkinv_2".
+Reading "sky130_fd_sc_hd__clkinv_4".
+Reading "sky130_fd_sc_hd__dfbbn_1".
+Reading "sky130_fd_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__clkinvlp_4".
+Reading "sky130_fd_sc_hd__clkinvlp_2".
+Reading "sky130_fd_sc_hd__clkinv_16".
+Reading "sky130_fd_sc_hd__clkinv_8".
+Reading "sky130_fd_sc_hd__dfbbn_2".
+Reading "sky130_fd_sc_hd__dfbbp_1".
+Reading "sky130_fd_sc_hd__dfrbp_1".
+Reading "sky130_fd_sc_hd__dfrbp_2".
+Reading "sky130_fd_sc_hd__dfrtn_1".
+Reading "sky130_fd_sc_hd__dfrtp_1".
+Reading "sky130_fd_sc_hd__a32oi_1".
+Reading "sky130_fd_sc_hd__a32oi_2".
+Reading "sky130_fd_sc_hd__a32oi_4".
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__a41o_2".
+Reading "sky130_fd_sc_hd__a41o_4".
+Reading "sky130_fd_sc_hd__a41oi_1".
+Reading "sky130_fd_sc_hd__a41oi_2".
+Reading "sky130_fd_sc_hd__a41oi_4".
+Reading "sky130_fd_sc_hd__a221o_4".
+Reading "sky130_fd_sc_hd__a221o_2".
+Reading "sky130_fd_sc_hd__a221oi_1".
+Reading "sky130_fd_sc_hd__a211oi_2".
+Reading "sky130_fd_sc_hd__a211oi_1".
+Reading "sky130_fd_sc_hd__a211o_4".
+Reading "sky130_fd_sc_hd__a211o_2".
+Reading "sky130_fd_sc_hd__a211o_1".
+Reading "sky130_fd_sc_hd__a221o_1".
+Reading "sky130_fd_sc_hd__a211oi_4".
+Reading "sky130_fd_sc_hd__a221oi_2".
+Reading "sky130_fd_sc_hd__a221oi_4".
+Reading "sky130_fd_sc_hd__a222oi_1".
+Reading "sky130_fd_sc_hd__a311o_1".
+Reading "sky130_fd_sc_hd__a311o_2".
+Reading "sky130_fd_sc_hd__a311o_4".
+Reading "sky130_fd_sc_hd__a311oi_1".
+Reading "sky130_fd_sc_hd__a311oi_2".
+Reading "sky130_fd_sc_hd__a311oi_4".
+Reading "sky130_fd_sc_hd__a2111o_1".
+Reading "sky130_fd_sc_hd__a2111o_2".
+Reading "sky130_fd_sc_hd__a2111o_4".
+Reading "sky130_fd_sc_hd__a2111oi_0".
+Reading "sky130_fd_sc_hd__a2111oi_1".
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "sky130_fd_sc_hd__a2111oi_2".
+Reading "sky130_fd_sc_hd__a2111oi_4".
+Reading "sky130_fd_sc_hd__and2_0".
+Reading "sky130_fd_sc_hd__and2_1".
+Reading "sky130_fd_sc_hd__and2b_1".
+Reading "sky130_fd_sc_hd__and2_4".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__and2b_4".
+Reading "sky130_fd_sc_hd__and2b_2".
+Reading "sky130_fd_sc_hd__and3_4".
+Reading "sky130_fd_sc_hd__and3_2".
+Reading "sky130_fd_sc_hd__and3_1".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "sky130_fd_sc_hd__and3b_4".
+Reading "sky130_fd_sc_hd__and4_1".
+Reading "sky130_fd_sc_hd__and4_2".
+Reading "sky130_ef_sc_hd__decap_12".
+Reading "sky130_ef_sc_hd__fill_4".
+Reading "sky130_ef_sc_hd__fill_8".
+Reading "sky130_ef_sc_hd__fill_12".
+Reading "sky130_fd_sc_hd__a2bb2o_1".
+Reading "sky130_fd_sc_hd__a2bb2o_2".
+Reading "sky130_fd_sc_hd__a2bb2o_4".
+Reading "sky130_fd_sc_hd__a2bb2oi_1".
+Reading "sky130_fd_sc_hd__a2bb2oi_2".
+Reading "sky130_fd_sc_hd__a2bb2oi_4".
+Reading "sky130_fd_sc_hd__a21bo_1".
+Reading "sky130_fd_sc_hd__a21bo_2".
+Reading "sky130_fd_sc_hd__a21bo_4".
+Reading "sky130_fd_sc_hd__a21boi_0".
+Reading "sky130_fd_sc_hd__a21boi_1".
+Reading "sky130_fd_sc_hd__a21boi_2".
+Reading "sky130_fd_sc_hd__a21boi_4".
+Reading "sky130_fd_sc_hd__a21o_1".
+Reading "sky130_fd_sc_hd__a21o_2".
+Reading "sky130_fd_sc_hd__a22o_1".
+Reading "sky130_fd_sc_hd__a21oi_4".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__a22oi_2".
+Reading "sky130_fd_sc_hd__a22oi_1".
+Reading "sky130_fd_sc_hd__a22o_4".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__a22oi_4".
+Reading "sky130_fd_sc_hd__a21oi_1".
+Reading "sky130_fd_sc_hd__a21o_4".
+Reading "sky130_fd_sc_hd__a31o_1".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__a31o_4".
+Reading "sky130_fd_sc_hd__a31oi_1".
+Reading "sky130_fd_sc_hd__a31oi_2".
+Reading "sky130_fd_sc_hd__a31oi_4".
+Reading "sky130_fd_sc_hd__a32o_1".
+Reading "sky130_fd_sc_hd__a32o_2".
+Reading "sky130_fd_sc_hd__a32o_4".
+Cell (NEWCELL) couldn't be read
+No such file or directory
+Creating new cell
+> lef read /home/phuong-nguyen/.volare/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef
+Reading LEF data from file /home/phuong-nguyen/.volare/volare/sky130/versions/bdc9412b3e468c102d01b7cf6337be06ec6e9c9a/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 78 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 79 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 112 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 114 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 115 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 121 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 122 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 123 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 156 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 164 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 165 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 167 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 206 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 207 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 248 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 249 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 251 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 290 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 291 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 797 lines.
+> def read /home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/runs/RUN_2024-07-11_13-13-04/49-openroad-fillinsertion/OFB.def -noblockage -labels
+Reading DEF data from file /home/phuong-nguyen/Downloads/DO_AN_01_removed_testbench/DO_AN_01/CODE/runs/RUN_2024-07-11_13-13-04/49-openroad-fillinsertion/OFB.def.
+This action cannot be undone.
+  Processed 4 vias total.
+  Processed 103132 subcell instances total.
+  Processed 324 pins total.
+  Processed 2 special nets total.
+  Processed 40186 nets total.
+DEF read: Processed 702984 lines.
+Moving label "_00036_" from metal1 to via1 in cell OFB.
+Moving label "_00038_" from metal1 to via1 in cell OFB.
+Moving label "_00050_" from metal1 to via1 in cell OFB.
+Moving label "_00051_" from metal1 to via1 in cell OFB.
+Moving label "_00056_" from metal1 to via1 in cell OFB.
+Moving label "_00066_" from metal1 to via1 in cell OFB.
+Moving label "_00069_" from metal1 to via1 in cell OFB.
+Moving label "_00080_" from metal1 to via1 in cell OFB.
+Moving label "_00083_" from metal1 to via1 in cell OFB.
+Moving label "_00085_" from metal1 to via1 in cell OFB.
+Moving label "_00094_" from metal1 to via1 in cell OFB.
+Moving label "_00097_" from metal3 to via3 in cell OFB.
+Moving label "_00124_" from metal1 to via1 in cell OFB.
+Moving label "_00131_" from metal1 to viali in cell OFB.
+Moving label "_00167_" from metal1 to via1 in cell OFB.
+Moving label "_00221_" from metal2 to via1 in cell OFB.
+Moving label "_00234_" from metal2 to via1 in cell OFB.
+Moving label "_00300_" from metal1 to viali in cell OFB.
+Moving label "_00302_" from metal1 to viali in cell OFB.
+Moving label "_00336_" from metal2 to via2 in cell OFB.
+Moving label "_00346_" from metal1 to via1 in cell OFB.
+Moving label "_00350_" from metal2 to via2 in cell OFB.
+Moving label "_00354_" from metal1 to viali in cell OFB.
+Moving label "_00631_" from metal1 to via1 in cell OFB.
+Moving label "_00721_" from metal1 to via1 in cell OFB.
+Moving label "_00730_" from metal1 to viali in cell OFB.
+Moving label "_00733_" from metal1 to via1 in cell OFB.
+Moving label "_00741_" from metal1 to via1 in cell OFB.
+Moving label "_00774_" from metal1 to viali in cell OFB.
+Moving label "_00816_" from metal2 to via2 in cell OFB.
+Moving label "_00929_" from metal2 to via2 in cell OFB.
+Moving label "_00936_" from metal2 to via2 in cell OFB.
+Moving label "_00939_" from metal2 to via2 in cell OFB.
+Moving label "_00963_" from metal2 to via1 in cell OFB.
+Moving label "_00997_" from metal2 to via2 in cell OFB.
+Moving label "_01248_" from metal1 to via1 in cell OFB.
+Moving label "_01266_" from metal1 to via1 in cell OFB.
+Moving label "_01285_" from metal1 to via1 in cell OFB.
+Moving label "_01386_" from metal1 to viali in cell OFB.
+Moving label "_01406_" from metal1 to viali in cell OFB.
+Moving label "_01418_" from metal1 to via1 in cell OFB.
+Moving label "_01433_" from metal2 to via2 in cell OFB.
+Moving label "_01495_" from metal2 to via1 in cell OFB.
+Moving label "_01517_" from metal1 to via1 in cell OFB.
+Moving label "_01528_" from metal2 to via1 in cell OFB.
+Moving label "_01547_" from metal2 to via1 in cell OFB.
+Moving label "_01558_" from metal1 to via1 in cell OFB.
+Moving label "_01587_" from metal2 to via2 in cell OFB.
+Moving label "_01622_" from metal2 to via2 in cell OFB.
+Moving label "_01623_" from metal1 to via1 in cell OFB.
+Moving label "_01640_" from metal2 to via2 in cell OFB.
+Moving label "_01668_" from metal2 to via2 in cell OFB.
+Moving label "_01698_" from metal1 to viali in cell OFB.
+Moving label "_01818_" from metal2 to via2 in cell OFB.
+Moving label "_01875_" from metal1 to via1 in cell OFB.
+Moving label "_01884_" from metal1 to via1 in cell OFB.
+Moving label "_02169_" from metal1 to viali in cell OFB.
+Moving label "_02217_" from metal2 to via2 in cell OFB.
+Moving label "_02227_" from metal2 to via2 in cell OFB.
+Moving label "_02288_" from metal2 to via2 in cell OFB.
+Moving label "_02315_" from metal2 to via2 in cell OFB.
+Moving label "_02327_" from metal2 to via2 in cell OFB.
+Moving label "_02400_" from metal2 to via1 in cell OFB.
+Moving label "_02433_" from metal1 to via1 in cell OFB.
+Moving label "_02459_" from metal1 to viali in cell OFB.
+Moving label "_02467_" from metal2 to via1 in cell OFB.
+Moving label "_02470_" from metal2 to via1 in cell OFB.
+Moving label "_02507_" from metal1 to via1 in cell OFB.
+Moving label "_02515_" from metal1 to viali in cell OFB.
+Moving label "_02517_" from metal1 to viali in cell OFB.
+Moving label "_02674_" from metal1 to via1 in cell OFB.
+Moving label "_02686_" from metal1 to viali in cell OFB.
+Moving label "_02692_" from metal1 to via1 in cell OFB.
+Moving label "_02702_" from metal1 to via1 in cell OFB.
+Moving label "_02842_" from metal2 to via2 in cell OFB.
+Moving label "_02852_" from metal1 to via1 in cell OFB.
+Moving label "_02985_" from metal1 to via1 in cell OFB.
+Moving label "_02996_" from metal2 to via2 in cell OFB.
+Moving label "_03027_" from metal1 to via1 in cell OFB.
+Moving label "_03030_" from metal1 to via1 in cell OFB.
+Moving label "_03031_" from metal2 to via1 in cell OFB.
+Moving label "_03057_" from metal1 to via1 in cell OFB.
+Moving label "_03086_" from metal1 to via1 in cell OFB.
+Moving label "_03092_" from metal1 to via1 in cell OFB.
+Moving label "_03098_" from metal2 to via2 in cell OFB.
+Moving label "_03117_" from metal1 to viali in cell OFB.
+Moving label "_03139_" from metal1 to via1 in cell OFB.
+Moving label "_03142_" from metal1 to via1 in cell OFB.
+Moving label "_03157_" from metal1 to via1 in cell OFB.
+Moving label "_03169_" from metal2 to via2 in cell OFB.
+Moving label "_03173_" from metal1 to via1 in cell OFB.
+Moving label "_03175_" from metal2 to via2 in cell OFB.
+Moving label "_03189_" from metal1 to viali in cell OFB.
+Moving label "_03195_" from metal1 to viali in cell OFB.
+Moving label "_03198_" from metal1 to via1 in cell OFB.
+Moving label "_03221_" from metal1 to via1 in cell OFB.
+Moving label "_03308_" from metal1 to via1 in cell OFB.
+Moving label "_03372_" from metal1 to via1 in cell OFB.
+Moving label "_03523_" from metal2 to via2 in cell OFB.
+Moving label "_03729_" from metal2 to via2 in cell OFB.
+Moving label "_03748_" from metal2 to via1 in cell OFB.
+Moving label "_03778_" from metal1 to viali in cell OFB.
+Moving label "_03795_" from metal2 to via1 in cell OFB.
+Moving label "_03870_" from metal2 to via1 in cell OFB.
+Moving label "_03892_" from metal1 to via1 in cell OFB.
+Moving label "_03968_" from metal1 to viali in cell OFB.
+Moving label "_03997_" from metal1 to via1 in cell OFB.
+Moving label "_04010_" from metal1 to via1 in cell OFB.
+Moving label "_04013_" from metal2 to via2 in cell OFB.
+Moving label "_04029_" from metal1 to viali in cell OFB.
+Moving label "_04030_" from metal1 to via1 in cell OFB.
+Moving label "_04124_" from metal1 to via1 in cell OFB.
+Moving label "_04223_" from metal2 to via2 in cell OFB.
+Moving label "_04234_" from metal2 to via2 in cell OFB.
+Moving label "_04256_" from metal2 to via2 in cell OFB.
+Moving label "_04264_" from metal1 to viali in cell OFB.
+Moving label "_04340_" from metal1 to via1 in cell OFB.
+Moving label "_04354_" from metal1 to via1 in cell OFB.
+Moving label "_04373_" from metal1 to via1 in cell OFB.
+Moving label "_04394_" from metal2 to via2 in cell OFB.
+Moving label "_04414_" from metal2 to via1 in cell OFB.
+Moving label "_04421_" from metal1 to via1 in cell OFB.
+Moving label "_04506_" from metal2 to via1 in cell OFB.
+Moving label "_04604_" from metal1 to via1 in cell OFB.
+Moving label "_04617_" from metal2 to via2 in cell OFB.
+Moving label "_04625_" from metal1 to viali in cell OFB.
+Moving label "_04654_" from metal1 to via1 in cell OFB.
+Moving label "_04704_" from metal2 to via2 in cell OFB.
+Moving label "_04771_" from metal2 to via2 in cell OFB.
+Moving label "_04830_" from metal2 to via1 in cell OFB.
+Moving label "_04835_" from metal2 to via2 in cell OFB.
+Moving label "_04882_" from metal2 to via2 in cell OFB.
+Moving label "_04885_" from metal2 to via2 in cell OFB.
+Moving label "_04894_" from metal2 to via2 in cell OFB.
+Moving label "_04920_" from metal1 to viali in cell OFB.
+Moving label "_04974_" from metal1 to via1 in cell OFB.
+Moving label "_04978_" from metal2 to via2 in cell OFB.
+Moving label "_05005_" from metal1 to viali in cell OFB.
+Moving label "_05032_" from metal2 to via2 in cell OFB.
+Moving label "_05047_" from metal1 to via1 in cell OFB.
+Moving label "_05052_" from metal1 to via1 in cell OFB.
+Moving label "_05103_" from metal1 to via1 in cell OFB.
+Moving label "_05120_" from metal1 to viali in cell OFB.
+Moving label "_05148_" from metal1 to viali in cell OFB.
+Moving label "_05176_" from metal1 to via1 in cell OFB.
+Moving label "_05187_" from metal1 to viali in cell OFB.
+Moving label "_05212_" from metal1 to via1 in cell OFB.
+Moving label "_05224_" from metal1 to via1 in cell OFB.
+Moving label "_05260_" from metal1 to viali in cell OFB.
+Moving label "_05265_" from metal1 to via1 in cell OFB.
+Moving label "_05359_" from metal2 to via2 in cell OFB.
+Moving label "_05365_" from metal2 to via1 in cell OFB.
+Moving label "_05449_" from metal2 to via2 in cell OFB.
+Moving label "_05520_" from metal2 to via2 in cell OFB.
+Moving label "_05530_" from metal2 to via2 in cell OFB.
+Moving label "_05568_" from metal1 to viali in cell OFB.
+Moving label "_05605_" from metal2 to via1 in cell OFB.
+Moving label "_05647_" from metal2 to via2 in cell OFB.
+Moving label "_05666_" from metal1 to viali in cell OFB.
+Moving label "_05711_" from metal1 to viali in cell OFB.
+Moving label "_05718_" from metal1 to viali in cell OFB.
+Moving label "_05743_" from metal1 to via1 in cell OFB.
+Moving label "_05754_" from metal2 to via2 in cell OFB.
+Moving label "_05784_" from metal2 to via1 in cell OFB.
+Moving label "_05786_" from metal1 to viali in cell OFB.
+Moving label "_05812_" from metal2 to via2 in cell OFB.
+Moving label "_05840_" from metal2 to via2 in cell OFB.
+Moving label "_06024_" from metal1 to via1 in cell OFB.
+Moving label "_06104_" from metal2 to via2 in cell OFB.
+Moving label "_06170_" from metal1 to via1 in cell OFB.
+Moving label "_06318_" from metal1 to via1 in cell OFB.
+Moving label "_06336_" from metal1 to via1 in cell OFB.
+Moving label "_06360_" from metal1 to via1 in cell OFB.
+Moving label "_06379_" from metal1 to via1 in cell OFB.
+Moving label "_06384_" from metal2 to via2 in cell OFB.
+Moving label "_06474_" from metal1 to via1 in cell OFB.
+Moving label "_06479_" from metal2 to via1 in cell OFB.
+Moving label "_06484_" from metal1 to viali in cell OFB.
+Moving label "_06527_" from metal1 to viali in cell OFB.
+Moving label "_06529_" from metal1 to via1 in cell OFB.
+Moving label "_06537_" from metal1 to via1 in cell OFB.
+Moving label "_06584_" from metal1 to viali in cell OFB.
+Moving label "_06585_" from metal2 to via2 in cell OFB.
+Moving label "_06588_" from metal2 to via1 in cell OFB.
+Moving label "_06788_" from metal1 to viali in cell OFB.
+Moving label "_06892_" from metal2 to via1 in cell OFB.
+Moving label "_06904_" from metal1 to viali in cell OFB.
+Moving label "_06934_" from metal1 to via1 in cell OFB.
+Moving label "_06976_" from metal1 to viali in cell OFB.
+Moving label "_07062_" from metal1 to viali in cell OFB.
+Moving label "_07151_" from metal1 to via1 in cell OFB.
+Moving label "_07240_" from metal2 to via1 in cell OFB.
+Moving label "_07250_" from metal2 to via1 in cell OFB.
+Moving label "_07434_" from metal1 to via1 in cell OFB.
+Moving label "_07543_" from metal1 to via1 in cell OFB.
+Moving label "_07669_" from metal1 to via1 in cell OFB.
+Moving label "_07677_" from metal1 to via1 in cell OFB.
+Moving label "_07742_" from metal2 to via2 in cell OFB.
+Moving label "_07808_" from metal1 to via1 in cell OFB.
+Moving label "_07827_" from metal1 to viali in cell OFB.
+Moving label "_07888_" from metal2 to via2 in cell OFB.
+Moving label "_07927_" from metal2 to via2 in cell OFB.
+Moving label "_07955_" from metal1 to viali in cell OFB.
+Moving label "_08013_" from metal1 to via1 in cell OFB.
+Moving label "_08039_" from metal1 to viali in cell OFB.
+Moving label "_08199_" from metal1 to via1 in cell OFB.
+Moving label "_08226_" from metal1 to via1 in cell OFB.
+Moving label "_08294_" from metal1 to viali in cell OFB.
+Moving label "_08326_" from metal1 to via1 in cell OFB.
+Moving label "_08399_" from metal1 to via1 in cell OFB.
+Moving label "_08400_" from metal2 to via2 in cell OFB.
+Moving label "_08593_" from metal2 to via2 in cell OFB.
+Moving label "_08769_" from metal1 to via1 in cell OFB.
+Moving label "_08774_" from metal2 to via2 in cell OFB.
+Moving label "_08858_" from metal1 to via1 in cell OFB.
+Moving label "_08911_" from metal1 to viali in cell OFB.
+Moving label "_08958_" from metal1 to via1 in cell OFB.
+Moving label "_08973_" from metal1 to viali in cell OFB.
+Moving label "_09028_" from metal1 to viali in cell OFB.
+Moving label "_09137_" from metal2 to via2 in cell OFB.
+Moving label "_09327_" from metal2 to via1 in cell OFB.
+Moving label "_09349_" from metal2 to via2 in cell OFB.
+Moving label "_09389_" from metal2 to via2 in cell OFB.
+Moving label "_09498_" from metal2 to via2 in cell OFB.
+Moving label "_09504_" from metal1 to viali in cell OFB.
+Moving label "_09558_" from metal2 to via1 in cell OFB.
+Moving label "_09565_" from metal2 to via2 in cell OFB.
+Moving label "_09569_" from metal1 to via1 in cell OFB.
+Moving label "_09606_" from metal1 to viali in cell OFB.
+Moving label "_09653_" from metal1 to viali in cell OFB.
+Moving label "_09709_" from metal2 to via2 in cell OFB.
+Moving label "_09713_" from metal1 to via1 in cell OFB.
+Moving label "_09724_" from metal1 to via1 in cell OFB.
+Moving label "_09747_" from metal1 to via1 in cell OFB.
+Moving label "_09755_" from metal1 to via1 in cell OFB.
+Moving label "_09805_" from metal2 to via1 in cell OFB.
+Moving label "_10160_" from metal1 to via1 in cell OFB.
+Moving label "_10172_" from metal1 to via1 in cell OFB.
+Moving label "_10198_" from metal1 to viali in cell OFB.
+Moving label "_10326_" from metal1 to viali in cell OFB.
+Moving label "_10328_" from metal2 to via2 in cell OFB.
+Moving label "_10330_" from metal1 to viali in cell OFB.
+Moving label "_10390_" from metal1 to via1 in cell OFB.
+Moving label "_10542_" from metal2 to via1 in cell OFB.
+Moving label "_10605_" from metal1 to via1 in cell OFB.
+Moving label "_10716_" from metal2 to via2 in cell OFB.
+Moving label "_10889_" from metal2 to via2 in cell OFB.
+Moving label "_10901_" from metal1 to via1 in cell OFB.
+Moving label "_10955_" from metal1 to via1 in cell OFB.
+Moving label "_10977_" from metal1 to via1 in cell OFB.
+Moving label "_11022_" from metal1 to via1 in cell OFB.
+Moving label "_11023_" from metal1 to via1 in cell OFB.
+Moving label "_11027_" from metal2 to via1 in cell OFB.
+Moving label "_11051_" from metal1 to via1 in cell OFB.
+Moving label "_11158_" from metal1 to via1 in cell OFB.
+Moving label "_11207_" from metal2 to via1 in cell OFB.
+Moving label "_11227_" from metal2 to via2 in cell OFB.
+Moving label "_11375_" from metal2 to via2 in cell OFB.
+Moving label "_11388_" from metal1 to via1 in cell OFB.
+Moving label "_11394_" from metal2 to via1 in cell OFB.
+Moving label "_11412_" from metal1 to via1 in cell OFB.
+Moving label "_11416_" from metal1 to viali in cell OFB.
+Moving label "_11466_" from metal1 to viali in cell OFB.
+Moving label "_11531_" from metal1 to via1 in cell OFB.
+Moving label "_11542_" from metal1 to viali in cell OFB.
+Moving label "_11544_" from metal1 to via1 in cell OFB.
+Moving label "_11545_" from metal1 to via1 in cell OFB.
+Moving label "_11708_" from metal1 to via1 in cell OFB.
+Moving label "_11729_" from metal1 to via1 in cell OFB.
+Moving label "_11837_" from metal2 to via1 in cell OFB.
+Moving label "_11841_" from metal2 to via2 in cell OFB.
+Moving label "_11890_" from metal2 to via2 in cell OFB.
+Moving label "_11979_" from metal2 to via2 in cell OFB.
+Moving label "_12028_" from metal2 to via2 in cell OFB.
+Moving label "_12060_" from metal2 to via1 in cell OFB.
+Moving label "_12142_" from metal1 to viali in cell OFB.
+Moving label "_12174_" from metal1 to via1 in cell OFB.
+Moving label "_12201_" from metal1 to via1 in cell OFB.
+Moving label "_12207_" from metal2 to via1 in cell OFB.
+Moving label "_12243_" from metal2 to via1 in cell OFB.
+Moving label "_12321_" from metal2 to via2 in cell OFB.
+Moving label "_12323_" from metal2 to via2 in cell OFB.
+Moving label "_12390_" from metal1 to via1 in cell OFB.
+Moving label "_12412_" from metal1 to via1 in cell OFB.
+Moving label "_12454_" from metal2 to via2 in cell OFB.
+Moving label "_12516_" from metal2 to via2 in cell OFB.
+Moving label "_12552_" from metal2 to via2 in cell OFB.
+Moving label "_12779_" from metal1 to viali in cell OFB.
+Moving label "_12781_" from metal1 to viali in cell OFB.
+Moving label "_12814_" from metal1 to via1 in cell OFB.
+Moving label "_12904_" from metal1 to viali in cell OFB.
+Moving label "_12909_" from metal1 to via1 in cell OFB.
+Moving label "_12945_" from metal2 to via1 in cell OFB.
+Moving label "_12990_" from metal2 to via1 in cell OFB.
+Moving label "_13084_" from metal1 to viali in cell OFB.
+Moving label "_13141_" from metal1 to via1 in cell OFB.
+Moving label "_13339_" from metal1 to via1 in cell OFB.
+Moving label "_13373_" from metal1 to via1 in cell OFB.
+Moving label "_13382_" from metal1 to via1 in cell OFB.
+Moving label "_13445_" from metal1 to viali in cell OFB.
+Moving label "_13513_" from metal1 to viali in cell OFB.
+Moving label "_13574_" from metal2 to via2 in cell OFB.
+Moving label "_13610_" from metal2 to via2 in cell OFB.
+Moving label "_13662_" from metal1 to viali in cell OFB.
+Moving label "_13665_" from metal1 to viali in cell OFB.
+Moving label "_13684_" from metal1 to viali in cell OFB.
+Moving label "_13796_" from metal2 to via2 in cell OFB.
+Moving label "_13805_" from metal2 to via2 in cell OFB.
+Moving label "_13888_" from metal2 to via2 in cell OFB.
+Moving label "_13974_" from metal1 to viali in cell OFB.
+Moving label "_14048_" from metal1 to viali in cell OFB.
+Moving label "_14071_" from metal1 to viali in cell OFB.
+Moving label "_14095_" from metal1 to viali in cell OFB.
+Moving label "_14120_" from metal1 to via1 in cell OFB.
+Moving label "_14160_" from metal1 to viali in cell OFB.
+Moving label "_14205_" from metal1 to via1 in cell OFB.
+Moving label "_14237_" from metal2 to via1 in cell OFB.
+Moving label "_14247_" from metal1 to via1 in cell OFB.
+Moving label "_14265_" from metal1 to viali in cell OFB.
+Moving label "_14383_" from metal1 to viali in cell OFB.
+Moving label "_14388_" from metal1 to via1 in cell OFB.
+Moving label "_14408_" from metal2 to via2 in cell OFB.
+Moving label "_14432_" from metal1 to viali in cell OFB.
+Moving label "_14621_" from metal1 to viali in cell OFB.
+Moving label "_14636_" from metal1 to via1 in cell OFB.
+Moving label "_14675_" from metal1 to viali in cell OFB.
+Moving label "_14687_" from metal1 to via1 in cell OFB.
+Moving label "_14690_" from metal1 to via1 in cell OFB.
+Moving label "_14755_" from metal1 to via1 in cell OFB.
+Moving label "_14801_" from metal1 to via1 in cell OFB.
+Moving label "_14869_" from metal2 to via2 in cell OFB.
+Moving label "_14874_" from metal2 to via2 in cell OFB.
+Moving label "_14882_" from metal1 to via1 in cell OFB.
+Moving label "_14933_" from metal1 to via1 in cell OFB.
+Moving label "_15023_" from metal3 to via3 in cell OFB.
+Moving label "_15087_" from metal2 to via2 in cell OFB.
+Moving label "_15188_" from metal2 to via2 in cell OFB.
+Moving label "_15258_" from metal2 to via2 in cell OFB.
+Moving label "_15294_" from metal1 to viali in cell OFB.
+Moving label "_15298_" from metal1 to viali in cell OFB.
+Moving label "_15307_" from metal1 to via1 in cell OFB.
+Moving label "_15313_" from metal1 to via1 in cell OFB.
+Moving label "_15333_" from metal1 to via1 in cell OFB.
+Moving label "_15344_" from metal1 to via1 in cell OFB.
+Moving label "_15365_" from metal1 to viali in cell OFB.
+Moving label "_15413_" from metal1 to viali in cell OFB.
+Moving label "_15427_" from metal1 to via1 in cell OFB.
+Moving label "_15463_" from metal1 to viali in cell OFB.
+Moving label "_15494_" from metal2 to via2 in cell OFB.
+Moving label "_15537_" from metal2 to via1 in cell OFB.
+Moving label "_15540_" from metal2 to via2 in cell OFB.
+Moving label "_15590_" from metal1 to viali in cell OFB.
+Moving label "_15636_" from metal2 to via2 in cell OFB.
+Moving label "_15650_" from metal1 to via1 in cell OFB.
+Moving label "_15682_" from metal2 to via2 in cell OFB.
+Moving label "_15988_" from metal1 to viali in cell OFB.
+Moving label "_15999_" from metal1 to viali in cell OFB.
+Moving label "_16036_" from metal1 to via1 in cell OFB.
+Moving label "_16070_" from metal1 to via1 in cell OFB.
+Moving label "_16094_" from metal2 to via2 in cell OFB.
+Moving label "_16103_" from metal1 to via1 in cell OFB.
+Moving label "_16122_" from metal2 to via1 in cell OFB.
+Moving label "_16128_" from metal2 to via2 in cell OFB.
+Moving label "_16143_" from metal1 to via1 in cell OFB.
+Moving label "_16144_" from metal2 to via2 in cell OFB.
+Moving label "_16199_" from metal2 to via2 in cell OFB.
+Moving label "_16281_" from metal1 to via1 in cell OFB.
+Moving label "_16302_" from metal2 to via1 in cell OFB.
+Moving label "_16343_" from metal2 to via2 in cell OFB.
+Moving label "_16351_" from metal2 to via2 in cell OFB.
+Moving label "_16355_" from metal1 to via1 in cell OFB.
+Moving label "_16390_" from metal2 to via2 in cell OFB.
+Moving label "_16401_" from metal2 to via1 in cell OFB.
+Moving label "_16402_" from metal1 to viali in cell OFB.
+Moving label "_16478_" from metal1 to via1 in cell OFB.
+Moving label "_16498_" from metal1 to via1 in cell OFB.
+Moving label "_16508_" from metal2 to via1 in cell OFB.
+Moving label "_16544_" from metal1 to via1 in cell OFB.
+Moving label "_16624_" from metal1 to viali in cell OFB.
+Moving label "_16648_" from metal1 to viali in cell OFB.
+Moving label "_16674_" from metal1 to viali in cell OFB.
+Moving label "_16735_" from metal1 to viali in cell OFB.
+Moving label "_16775_" from metal2 to via1 in cell OFB.
+Moving label "_16818_" from metal1 to viali in cell OFB.
+Moving label "_16839_" from metal2 to via1 in cell OFB.
+Moving label "_16925_" from metal2 to via2 in cell OFB.
+Moving label "_16950_" from metal2 to via2 in cell OFB.
+Moving label "_17027_" from metal2 to via2 in cell OFB.
+Moving label "_17111_" from metal2 to via2 in cell OFB.
+Moving label "_17122_" from metal2 to via2 in cell OFB.
+Moving label "_17134_" from metal1 to via1 in cell OFB.
+Moving label "_17185_" from metal2 to via1 in cell OFB.
+Moving label "_17217_" from metal1 to via1 in cell OFB.
+Moving label "_17242_" from metal2 to via1 in cell OFB.
+Moving label "_17280_" from metal1 to via1 in cell OFB.
+Moving label "_17285_" from metal1 to viali in cell OFB.
+Moving label "_17314_" from metal1 to via1 in cell OFB.
+Moving label "_17333_" from metal1 to viali in cell OFB.
+Moving label "_17340_" from metal2 to via2 in cell OFB.
+Moving label "_17362_" from metal1 to viali in cell OFB.
+Moving label "_17409_" from metal1 to viali in cell OFB.
+Moving label "_17413_" from metal1 to via1 in cell OFB.
+Moving label "_17459_" from metal2 to via2 in cell OFB.
+Moving label "_17571_" from metal2 to via2 in cell OFB.
+Moving label "_17574_" from metal1 to viali in cell OFB.
+Moving label "_17584_" from metal1 to via1 in cell OFB.
+Moving label "_17691_" from metal2 to via2 in cell OFB.
+Moving label "_17760_" from metal2 to via2 in cell OFB.
+Moving label "_17800_" from metal1 to via1 in cell OFB.
+Moving label "_17848_" from metal2 to via1 in cell OFB.
+Moving label "_17849_" from metal1 to via1 in cell OFB.
+Moving label "_17877_" from metal1 to via1 in cell OFB.
+Moving label "_17954_" from metal1 to via1 in cell OFB.
+Moving label "_17971_" from metal1 to via1 in cell OFB.
+Moving label "_17995_" from metal2 to via1 in cell OFB.
+Moving label "_17997_" from metal2 to via2 in cell OFB.
+Moving label "_18011_" from metal1 to via1 in cell OFB.
+Moving label "_18038_" from metal1 to via1 in cell OFB.
+Moving label "_18061_" from metal2 to via2 in cell OFB.
+Moving label "_18126_" from metal2 to via2 in cell OFB.
+Moving label "_18190_" from metal1 to viali in cell OFB.
+Moving label "_18217_" from metal2 to via2 in cell OFB.
+Moving label "_18318_" from metal3 to via3 in cell OFB.
+Moving label "_18377_" from metal1 to via1 in cell OFB.
+Moving label "_18405_" from metal1 to via1 in cell OFB.
+Moving label "_18526_" from metal1 to via1 in cell OFB.
+Moving label "_18547_" from metal1 to via1 in cell OFB.
+Moving label "_18621_" from metal1 to via1 in cell OFB.
+Moving label "_18667_" from metal1 to via1 in cell OFB.
+Moving label "_18755_" from metal2 to via2 in cell OFB.
+Moving label "_18829_" from metal1 to viali in cell OFB.
+Moving label "_18887_" from metal2 to via2 in cell OFB.
+Moving label "_18895_" from metal1 to viali in cell OFB.
+Moving label "_18927_" from metal1 to via1 in cell OFB.
+Moving label "_18957_" from metal2 to via2 in cell OFB.
+Moving label "_19029_" from metal2 to via1 in cell OFB.
+Moving label "_19041_" from metal2 to via2 in cell OFB.
+Moving label "_19091_" from metal1 to via1 in cell OFB.
+Moving label "_19101_" from metal1 to viali in cell OFB.
+Moving label "_19103_" from metal2 to via1 in cell OFB.
+Moving label "_19138_" from metal1 to via1 in cell OFB.
+Moving label "_19187_" from metal1 to viali in cell OFB.
+Moving label "_19219_" from metal2 to via2 in cell OFB.
+Moving label "_19232_" from metal1 to via1 in cell OFB.
+Moving label "_19320_" from metal1 to via1 in cell OFB.
+Moving label "_19333_" from metal2 to via2 in cell OFB.
+Moving label "_19342_" from metal1 to via1 in cell OFB.
+Moving label "_19386_" from metal2 to via2 in cell OFB.
+Moving label "_19605_" from metal2 to via2 in cell OFB.
+Moving label "_19620_" from metal1 to viali in cell OFB.
+Moving label "_19627_" from metal2 to via1 in cell OFB.
+Moving label "_19669_" from metal1 to via1 in cell OFB.
+Moving label "_19703_" from metal1 to via1 in cell OFB.
+Moving label "_19744_" from metal1 to via1 in cell OFB.
+Moving label "_19755_" from metal2 to via1 in cell OFB.
+Moving label "_19759_" from metal2 to via2 in cell OFB.
+Moving label "_19798_" from metal2 to via2 in cell OFB.
+Moving label "_19807_" from metal2 to via1 in cell OFB.
+Moving label "_19838_" from metal1 to via1 in cell OFB.
+Moving label "_19933_" from metal1 to viali in cell OFB.
+Moving label "_19949_" from metal1 to via1 in cell OFB.
+Moving label "_20073_" from metal1 to viali in cell OFB.
+Moving label "_20106_" from metal2 to via2 in cell OFB.
+Moving label "_20144_" from metal1 to via1 in cell OFB.
+Moving label "_20165_" from metal2 to via2 in cell OFB.
+Moving label "_20176_" from metal2 to via1 in cell OFB.
+Moving label "_20250_" from metal2 to via2 in cell OFB.
+Moving label "_20295_" from metal2 to via2 in cell OFB.
+Moving label "_20322_" from metal2 to via2 in cell OFB.
+Moving label "_20337_" from metal2 to via2 in cell OFB.
+Moving label "_20493_" from metal2 to via2 in cell OFB.
+Moving label "_20517_" from metal1 to via1 in cell OFB.
+Moving label "_20583_" from metal2 to via1 in cell OFB.
+Moving label "_20598_" from metal2 to via2 in cell OFB.
+Moving label "_20646_" from metal1 to via1 in cell OFB.
+Moving label "_20751_" from metal1 to viali in cell OFB.
+Moving label "_20760_" from metal1 to viali in cell OFB.
+Moving label "_20770_" from metal2 to via1 in cell OFB.
+Moving label "_20780_" from metal2 to via2 in cell OFB.
+Moving label "_20880_" from metal2 to via2 in cell OFB.
+Moving label "_20952_" from metal2 to via2 in cell OFB.
+Moving label "_21057_" from metal1 to via1 in cell OFB.
+Moving label "_21065_" from metal1 to viali in cell OFB.
+Moving label "_21081_" from metal2 to via2 in cell OFB.
+Moving label "_21115_" from metal1 to via1 in cell OFB.
+Moving label "_21197_" from metal1 to viali in cell OFB.
+Moving label "_21199_" from metal1 to viali in cell OFB.
+Moving label "_21238_" from metal1 to via1 in cell OFB.
+Moving label "_21240_" from metal1 to via1 in cell OFB.
+Moving label "_21411_" from metal2 to via2 in cell OFB.
+Moving label "_21436_" from metal2 to via2 in cell OFB.
+Moving label "_21486_" from metal2 to via2 in cell OFB.
+Moving label "_21503_" from metal2 to via2 in cell OFB.
+Moving label "_21523_" from metal1 to via1 in cell OFB.
+Moving label "_21609_" from metal1 to via1 in cell OFB.
+Moving label "_21610_" from metal1 to viali in cell OFB.
+Moving label "_21668_" from metal1 to viali in cell OFB.
+Moving label "_21684_" from metal2 to via2 in cell OFB.
+Moving label "_21688_" from metal2 to via2 in cell OFB.
+Moving label "_21694_" from metal1 to via1 in cell OFB.
+Moving label "_21695_" from metal2 to via1 in cell OFB.
+Moving label "_21697_" from metal1 to via1 in cell OFB.
+Moving label "_21738_" from metal1 to via1 in cell OFB.
+Moving label "_21763_" from metal1 to via1 in cell OFB.
+Moving label "_21776_" from metal1 to via1 in cell OFB.
+Moving label "_21800_" from metal2 to via1 in cell OFB.
+Moving label "_21804_" from metal1 to via1 in cell OFB.
+Moving label "_21835_" from metal1 to via1 in cell OFB.
+Moving label "_21857_" from metal1 to via1 in cell OFB.
+Moving label "_21874_" from metal2 to via2 in cell OFB.
+Moving label "_21881_" from metal2 to via2 in cell OFB.
+Moving label "_22034_" from metal1 to via1 in cell OFB.
+Moving label "_22302_" from metal1 to viali in cell OFB.
+Moving label "_22376_" from metal2 to via2 in cell OFB.
+Moving label "_22389_" from metal1 to via1 in cell OFB.
+Moving label "_22395_" from metal1 to via1 in cell OFB.
+Moving label "_22467_" from metal1 to viali in cell OFB.
+Moving label "_22485_" from metal1 to via1 in cell OFB.
+Moving label "_22516_" from metal1 to via1 in cell OFB.
+Moving label "_22536_" from metal2 to via2 in cell OFB.
+Moving label "_22565_" from metal1 to via1 in cell OFB.
+Moving label "_22655_" from metal2 to via2 in cell OFB.
+Moving label "_22669_" from metal1 to via1 in cell OFB.
+Moving label "_22702_" from metal2 to via2 in cell OFB.
+Moving label "_22779_" from metal2 to via2 in cell OFB.
+Moving label "_22799_" from metal2 to via2 in cell OFB.
+Moving label "_22871_" from metal2 to via2 in cell OFB.
+Moving label "_22954_" from metal1 to via1 in cell OFB.
+Moving label "_23022_" from metal2 to via2 in cell OFB.
+Moving label "_23028_" from metal1 to via1 in cell OFB.
+Moving label "_23067_" from metal2 to via2 in cell OFB.
+Moving label "_23125_" from metal1 to viali in cell OFB.
+Moving label "_23129_" from metal2 to via2 in cell OFB.
+Moving label "_23142_" from metal2 to via2 in cell OFB.
+Moving label "_23204_" from metal1 to via1 in cell OFB.
+Moving label "_23234_" from metal1 to viali in cell OFB.
+Moving label "_23272_" from metal2 to via2 in cell OFB.
+Moving label "_23308_" from metal1 to via1 in cell OFB.
+Moving label "_23314_" from metal1 to viali in cell OFB.
+Moving label "_23347_" from metal1 to via1 in cell OFB.
+Moving label "_23363_" from metal2 to via1 in cell OFB.
+Moving label "_23443_" from metal2 to via1 in cell OFB.
+Moving label "_23491_" from metal2 to via2 in cell OFB.
+Moving label "_23572_" from metal1 to viali in cell OFB.
+Moving label "_23594_" from metal1 to via1 in cell OFB.
+Moving label "_23654_" from metal2 to via1 in cell OFB.
+Moving label "_23735_" from metal1 to via1 in cell OFB.
+Moving label "_23784_" from metal1 to via1 in cell OFB.
+Moving label "_23834_" from metal2 to via1 in cell OFB.
+Moving label "_23858_" from metal1 to viali in cell OFB.
+Moving label "_23892_" from metal1 to via1 in cell OFB.
+Moving label "_23968_" from metal2 to via2 in cell OFB.
+Moving label "_23979_" from metal2 to via2 in cell OFB.
+Moving label "_24070_" from metal2 to via2 in cell OFB.
+Moving label "_24087_" from metal2 to via2 in cell OFB.
+Moving label "_24099_" from metal2 to via2 in cell OFB.
+Moving label "_24135_" from metal2 to via2 in cell OFB.
+Moving label "_24151_" from metal1 to via1 in cell OFB.
+Moving label "_24157_" from metal2 to via2 in cell OFB.
+Moving label "_24163_" from metal1 to via1 in cell OFB.
+Moving label "_24261_" from metal1 to via1 in cell OFB.
+Moving label "_24281_" from metal1 to via1 in cell OFB.
+Moving label "_24311_" from metal1 to viali in cell OFB.
+Moving label "_24358_" from metal1 to viali in cell OFB.
+Moving label "_24412_" from metal2 to via1 in cell OFB.
+Moving label "_24421_" from metal1 to viali in cell OFB.
+Moving label "_24520_" from metal1 to viali in cell OFB.
+Moving label "_24565_" from metal2 to via2 in cell OFB.
+Moving label "_24588_" from metal2 to via1 in cell OFB.
+Moving label "_24630_" from metal2 to via2 in cell OFB.
+Moving label "_24765_" from metal2 to via1 in cell OFB.
+Moving label "_24801_" from metal2 to via2 in cell OFB.
+Moving label "_24806_" from metal1 to via1 in cell OFB.
+Moving label "_24831_" from metal2 to via1 in cell OFB.
+Moving label "_24863_" from metal1 to via1 in cell OFB.
+Moving label "_24909_" from metal1 to via1 in cell OFB.
+Moving label "_24919_" from metal1 to via1 in cell OFB.
+Moving label "_24969_" from metal2 to via1 in cell OFB.
+Moving label "_25025_" from metal2 to via2 in cell OFB.
+Moving label "_25059_" from metal1 to viali in cell OFB.
+Moving label "_25113_" from metal2 to via1 in cell OFB.
+Moving label "_25170_" from metal1 to via1 in cell OFB.
+Moving label "_25251_" from metal2 to via2 in cell OFB.
+Moving label "_25346_" from metal2 to via2 in cell OFB.
+Moving label "_25367_" from metal2 to via2 in cell OFB.
+Moving label "_25424_" from metal2 to via2 in cell OFB.
+Moving label "_25443_" from metal1 to viali in cell OFB.
+Moving label "_25462_" from metal1 to viali in cell OFB.
+Moving label "_25515_" from metal1 to viali in cell OFB.
+Moving label "_25534_" from metal1 to via1 in cell OFB.
+Moving label "_25577_" from metal1 to via1 in cell OFB.
+Moving label "_25597_" from metal2 to via2 in cell OFB.
+Moving label "_25608_" from metal1 to via1 in cell OFB.
+Moving label "_25654_" from metal1 to viali in cell OFB.
+Moving label "_25694_" from metal2 to via1 in cell OFB.
+Moving label "_25717_" from metal2 to via2 in cell OFB.
+Moving label "_25720_" from metal2 to via2 in cell OFB.
+Moving label "_25896_" from metal2 to via2 in cell OFB.
+Moving label "_25907_" from metal2 to via2 in cell OFB.
+Moving label "_25909_" from metal1 to viali in cell OFB.
+Moving label "_26028_" from metal2 to via1 in cell OFB.
+Moving label "_26043_" from metal2 to via2 in cell OFB.
+Moving label "_26056_" from metal2 to via2 in cell OFB.
+Moving label "_26104_" from metal2 to via1 in cell OFB.
+Moving label "_26128_" from metal2 to via2 in cell OFB.
+Moving label "_26161_" from metal2 to via2 in cell OFB.
+Moving label "_26226_" from metal2 to via1 in cell OFB.
+Moving label "_26249_" from metal2 to via2 in cell OFB.
+Moving label "_26275_" from metal1 to viali in cell OFB.
+Moving label "_26367_" from metal1 to via1 in cell OFB.
+Moving label "_26525_" from metal1 to viali in cell OFB.
+Moving label "_26600_" from metal2 to via2 in cell OFB.
+Moving label "_26626_" from metal1 to via1 in cell OFB.
+Moving label "_26697_" from metal2 to via2 in cell OFB.
+Moving label "_26724_" from metal2 to via1 in cell OFB.
+Moving label "_26753_" from metal1 to viali in cell OFB.
+Moving label "_26782_" from metal1 to via1 in cell OFB.
+Moving label "_26791_" from metal2 to via2 in cell OFB.
+Moving label "_26857_" from metal1 to via1 in cell OFB.
+Moving label "_26898_" from metal2 to via2 in cell OFB.
+Moving label "_26949_" from metal1 to viali in cell OFB.
+Moving label "_26971_" from metal1 to viali in cell OFB.
+Moving label "_27008_" from metal2 to via2 in cell OFB.
+Moving label "_27015_" from metal1 to via1 in cell OFB.
+Moving label "_27052_" from metal2 to via2 in cell OFB.
+Moving label "_27065_" from metal2 to via2 in cell OFB.
+Moving label "_27072_" from metal1 to viali in cell OFB.
+Moving label "_27150_" from metal2 to via2 in cell OFB.
+Moving label "_27175_" from metal1 to via1 in cell OFB.
+Moving label "_27202_" from metal2 to via2 in cell OFB.
+Moving label "_27212_" from metal2 to via2 in cell OFB.
+Moving label "_27224_" from metal2 to via2 in cell OFB.
+Moving label "_27303_" from metal1 to viali in cell OFB.
+Moving label "_27324_" from metal2 to via2 in cell OFB.
+Moving label "_27344_" from metal1 to via1 in cell OFB.
+Moving label "_27379_" from metal1 to viali in cell OFB.
+Moving label "_27410_" from metal1 to via1 in cell OFB.
+Moving label "_27424_" from metal2 to via1 in cell OFB.
+Moving label "_27478_" from metal1 to via1 in cell OFB.
+Moving label "_27637_" from metal2 to via2 in cell OFB.
+Moving label "_27710_" from metal2 to via2 in cell OFB.
+Moving label "_27813_" from metal2 to via2 in cell OFB.
+Moving label "_27845_" from metal1 to via1 in cell OFB.
+Moving label "_27864_" from metal1 to via1 in cell OFB.
+Moving label "_27930_" from metal1 to viali in cell OFB.
+Moving label "_27945_" from metal2 to via1 in cell OFB.
+Moving label "_28024_" from metal1 to via1 in cell OFB.
+Moving label "_28032_" from metal2 to via2 in cell OFB.
+Moving label "_28063_" from metal2 to via2 in cell OFB.
+Moving label "_28074_" from metal1 to viali in cell OFB.
+Moving label "_28114_" from metal2 to via2 in cell OFB.
+Moving label "_28122_" from metal1 to via1 in cell OFB.
+Moving label "_28191_" from metal1 to viali in cell OFB.
+Moving label "_28205_" from metal1 to via1 in cell OFB.
+Moving label "_28231_" from metal1 to viali in cell OFB.
+Moving label "_28263_" from metal2 to via2 in cell OFB.
+Moving label "_28318_" from metal2 to via2 in cell OFB.
+Moving label "_28340_" from metal2 to via2 in cell OFB.
+Moving label "_28362_" from metal2 to via1 in cell OFB.
+Moving label "_28385_" from metal2 to via1 in cell OFB.
+Moving label "_28517_" from metal1 to viali in cell OFB.
+Moving label "_28544_" from metal1 to via1 in cell OFB.
+Moving label "_28545_" from metal1 to via1 in cell OFB.
+Moving label "_28549_" from metal1 to viali in cell OFB.
+Moving label "_28555_" from metal1 to viali in cell OFB.
+Moving label "_28557_" from metal1 to via1 in cell OFB.
+Moving label "_28570_" from metal1 to viali in cell OFB.
+Moving label "_28610_" from metal1 to via1 in cell OFB.
+Moving label "_28612_" from metal2 to via2 in cell OFB.
+Moving label "_28679_" from metal1 to via1 in cell OFB.
+Moving label "_28708_" from metal2 to via2 in cell OFB.
+Moving label "_28748_" from metal2 to via2 in cell OFB.
+Moving label "_28753_" from metal2 to via2 in cell OFB.
+Moving label "_28790_" from metal1 to via1 in cell OFB.
+Moving label "_28838_" from metal2 to via2 in cell OFB.
+Moving label "_28843_" from metal1 to viali in cell OFB.
+Moving label "_28848_" from metal2 to via2 in cell OFB.
+Moving label "_29005_" from metal2 to via2 in cell OFB.
+Moving label "_29104_" from metal1 to via1 in cell OFB.
+Moving label "_29125_" from metal2 to via2 in cell OFB.
+Moving label "_29133_" from metal2 to via2 in cell OFB.
+Moving label "_29146_" from metal2 to via2 in cell OFB.
+Moving label "_29155_" from metal2 to via2 in cell OFB.
+Moving label "_29203_" from metal1 to viali in cell OFB.
+Moving label "_29323_" from metal1 to viali in cell OFB.
+Moving label "_29457_" from metal1 to viali in cell OFB.
+Moving label "_29477_" from metal1 to via1 in cell OFB.
+Moving label "_29532_" from metal1 to via1 in cell OFB.
+Moving label "_29554_" from metal1 to via1 in cell OFB.
+Moving label "_29558_" from metal1 to viali in cell OFB.
+Moving label "_29560_" from metal1 to via1 in cell OFB.
+Moving label "_29574_" from metal1 to via1 in cell OFB.
+Moving label "_29608_" from metal3 to via3 in cell OFB.
+Moving label "_29630_" from metal2 to via1 in cell OFB.
+Moving label "_29662_" from metal2 to via1 in cell OFB.
+Moving label "_29701_" from metal1 to via1 in cell OFB.
+Moving label "_29704_" from metal1 to via1 in cell OFB.
+Moving label "_29715_" from metal1 to viali in cell OFB.
+Moving label "_29741_" from metal2 to via2 in cell OFB.
+Moving label "_29767_" from metal1 to viali in cell OFB.
+Moving label "_29798_" from metal1 to viali in cell OFB.
+Moving label "_29848_" from metal1 to via1 in cell OFB.
+Moving label "_29979_" from metal1 to via1 in cell OFB.
+Moving label "_29984_" from metal2 to via2 in cell OFB.
+Moving label "_29985_" from metal2 to via1 in cell OFB.
+Moving label "_30047_" from metal2 to via2 in cell OFB.
+Moving label "_30073_" from metal1 to viali in cell OFB.
+Moving label "_30142_" from metal1 to viali in cell OFB.
+Moving label "_30172_" from metal2 to via2 in cell OFB.
+Moving label "_30251_" from metal2 to via2 in cell OFB.
+Moving label "_30253_" from metal1 to viali in cell OFB.
+Moving label "_30264_" from metal2 to via2 in cell OFB.
+Moving label "_30269_" from metal1 to via1 in cell OFB.
+Moving label "_30399_" from metal1 to via1 in cell OFB.
+Moving label "_30467_" from metal2 to via2 in cell OFB.
+Moving label "_30470_" from metal2 to via2 in cell OFB.
+Moving label "_30476_" from metal3 to via3 in cell OFB.
+Moving label "_30518_" from metal2 to via2 in cell OFB.
+Moving label "_30581_" from metal1 to via1 in cell OFB.
+Moving label "_30590_" from metal1 to viali in cell OFB.
+Moving label "_30636_" from metal1 to via1 in cell OFB.
+Moving label "_30690_" from metal1 to viali in cell OFB.
+Moving label "_30793_" from metal2 to via2 in cell OFB.
+Moving label "_30805_" from metal2 to via2 in cell OFB.
+Moving label "_30828_" from metal1 to via1 in cell OFB.
+Moving label "_30850_" from metal1 to via1 in cell OFB.
+Moving label "_30864_" from metal2 to via2 in cell OFB.
+Moving label "_30915_" from metal1 to via1 in cell OFB.
+Moving label "_30976_" from metal1 to via1 in cell OFB.
+Moving label "_30977_" from metal1 to via1 in cell OFB.
+Moving label "_30982_" from metal2 to via2 in cell OFB.
+Moving label "_30986_" from metal2 to via2 in cell OFB.
+Moving label "_31037_" from metal3 to via3 in cell OFB.
+Moving label "_31190_" from metal1 to via1 in cell OFB.
+Moving label "_31204_" from metal1 to viali in cell OFB.
+Moving label "_31246_" from metal2 to via1 in cell OFB.
+Moving label "_31247_" from metal1 to via1 in cell OFB.
+Moving label "_31327_" from metal2 to via1 in cell OFB.
+Moving label "_31343_" from metal1 to via1 in cell OFB.
+Moving label "_31357_" from metal1 to via1 in cell OFB.
+Moving label "_31429_" from metal1 to viali in cell OFB.
+Moving label "_31435_" from metal1 to via1 in cell OFB.
+Moving label "_31437_" from metal2 to via2 in cell OFB.
+Moving label "_31474_" from metal2 to via2 in cell OFB.
+Moving label "_31522_" from metal1 to via1 in cell OFB.
+Moving label "_31539_" from metal1 to via1 in cell OFB.
+Moving label "_31592_" from metal1 to via1 in cell OFB.
+Moving label "_31604_" from metal2 to via2 in cell OFB.
+Moving label "_31652_" from metal2 to via2 in cell OFB.
+Moving label "_31669_" from metal1 to via1 in cell OFB.
+Moving label "_31682_" from metal1 to viali in cell OFB.
+Moving label "_31689_" from metal2 to via2 in cell OFB.
+Moving label "_31690_" from metal1 to viali in cell OFB.
+Moving label "_31826_" from metal1 to viali in cell OFB.
+Moving label "_31861_" from metal2 to via2 in cell OFB.
+Moving label "_31871_" from metal1 to viali in cell OFB.
+Moving label "_31917_" from metal1 to viali in cell OFB.
+Moving label "_31957_" from metal1 to viali in cell OFB.
+Moving label "_31975_" from metal1 to via1 in cell OFB.
+Moving label "_32007_" from metal3 to via3 in cell OFB.
+Moving label "_32055_" from metal2 to via2 in cell OFB.
+Moving label "_32106_" from metal2 to via2 in cell OFB.
+Moving label "_32166_" from metal2 to via1 in cell OFB.
+Moving label "_32227_" from metal3 to via3 in cell OFB.
+Moving label "_32293_" from metal2 to via2 in cell OFB.
+Moving label "_32304_" from metal2 to via2 in cell OFB.
+Moving label "_32333_" from metal2 to via2 in cell OFB.
+Moving label "_32425_" from metal2 to via2 in cell OFB.
+Moving label "_32451_" from metal2 to via2 in cell OFB.
+Moving label "_32476_" from metal1 to via1 in cell OFB.
+Moving label "_32512_" from metal1 to via1 in cell OFB.
+Moving label "_32514_" from metal1 to viali in cell OFB.
+Moving label "_32564_" from metal1 to viali in cell OFB.
+Moving label "_32576_" from metal2 to via1 in cell OFB.
+Moving label "_32703_" from metal1 to via1 in cell OFB.
+Moving label "_32746_" from metal1 to viali in cell OFB.
+Moving label "_32777_" from metal3 to via3 in cell OFB.
+Moving label "_32863_" from metal1 to via1 in cell OFB.
+Moving label "_32886_" from metal1 to via1 in cell OFB.
+Moving label "_32909_" from metal2 to via2 in cell OFB.
+Moving label "_32936_" from metal1 to viali in cell OFB.
+Moving label "_33017_" from metal2 to via2 in cell OFB.
+Moving label "_33096_" from metal2 to via2 in cell OFB.
+Moving label "_33146_" from metal1 to viali in cell OFB.
+Moving label "_33149_" from metal2 to via2 in cell OFB.
+Moving label "_33161_" from metal2 to via2 in cell OFB.
+Moving label "_33167_" from metal1 to via1 in cell OFB.
+Moving label "_33180_" from metal1 to viali in cell OFB.
+Moving label "_33282_" from metal1 to viali in cell OFB.
+Moving label "_33286_" from metal1 to via1 in cell OFB.
+Moving label "_33295_" from metal1 to via1 in cell OFB.
+Moving label "_33296_" from metal2 to via2 in cell OFB.
+Moving label "_33350_" from metal2 to via1 in cell OFB.
+Moving label "_33373_" from metal1 to via1 in cell OFB.
+Moving label "_33407_" from metal1 to via1 in cell OFB.
+Moving label "_33447_" from metal2 to via2 in cell OFB.
+Moving label "_33480_" from metal2 to via2 in cell OFB.
+Moving label "_33682_" from metal2 to via2 in cell OFB.
+Moving label "_33687_" from metal2 to via2 in cell OFB.
+Moving label "_33693_" from metal2 to via2 in cell OFB.
+Moving label "_33714_" from metal2 to via2 in cell OFB.
+Moving label "_33728_" from metal1 to via1 in cell OFB.
+Moving label "_33730_" from metal1 to via1 in cell OFB.
+Moving label "_33791_" from metal1 to via1 in cell OFB.
+Moving label "_33890_" from metal1 to via1 in cell OFB.
+Moving label "_33908_" from metal1 to via1 in cell OFB.
+Moving label "_33951_" from metal1 to via1 in cell OFB.
+Moving label "_34072_" from metal2 to via2 in cell OFB.
+Moving label "_34250_" from metal1 to viali in cell OFB.
+Moving label "_34251_" from metal2 to via2 in cell OFB.
+Moving label "_34256_" from metal1 to viali in cell OFB.
+Moving label "_34288_" from metal1 to viali in cell OFB.
+Moving label "_34462_" from metal1 to viali in cell OFB.
+Moving label "_34489_" from metal1 to via1 in cell OFB.
+Moving label "_34525_" from metal1 to via1 in cell OFB.
+Moving label "_34570_" from metal2 to via1 in cell OFB.
+Moving label "_34623_" from metal2 to via1 in cell OFB.
+Moving label "_34636_" from metal2 to via1 in cell OFB.
+Moving label "_34694_" from metal1 to via1 in cell OFB.
+Moving label "_34718_" from metal1 to via1 in cell OFB.
+Moving label "_34735_" from metal2 to via2 in cell OFB.
+Moving label "_34834_" from metal1 to via1 in cell OFB.
+Moving label "_34877_" from metal1 to viali in cell OFB.
+Moving label "_34897_" from metal1 to via1 in cell OFB.
+Moving label "_34927_" from metal2 to via2 in cell OFB.
+Moving label "_34931_" from metal1 to via1 in cell OFB.
+Moving label "_34943_" from metal2 to via2 in cell OFB.
+Moving label "_34963_" from metal2 to via2 in cell OFB.
+Moving label "_34999_" from metal1 to via1 in cell OFB.
+Moving label "_35010_" from metal1 to via1 in cell OFB.
+Moving label "_35086_" from metal1 to viali in cell OFB.
+Moving label "_35091_" from metal2 to via1 in cell OFB.
+Moving label "_35105_" from metal2 to via2 in cell OFB.
+Moving label "_35244_" from metal1 to viali in cell OFB.
+Moving label "_35249_" from metal1 to via1 in cell OFB.
+Moving label "_35275_" from metal1 to via1 in cell OFB.
+Moving label "_35326_" from metal1 to via1 in cell OFB.
+Moving label "_35328_" from metal1 to viali in cell OFB.
+Moving label "_35398_" from metal1 to via1 in cell OFB.
+Moving label "_35441_" from metal1 to viali in cell OFB.
+Moving label "_35461_" from metal1 to via1 in cell OFB.
+Moving label "_35584_" from metal2 to via2 in cell OFB.
+Moving label "_35605_" from metal2 to via2 in cell OFB.
+Moving label "_35636_" from metal2 to via2 in cell OFB.
+Moving label "_35685_" from metal2 to via2 in cell OFB.
+Moving label "_35749_" from metal1 to via1 in cell OFB.
+Moving label "_35755_" from metal2 to via2 in cell OFB.
+Moving label "_35823_" from metal2 to via2 in cell OFB.
+Moving label "_35853_" from metal1 to viali in cell OFB.
+Moving label "_35903_" from metal1 to via1 in cell OFB.
+Moving label "_35906_" from metal1 to via1 in cell OFB.
+Moving label "_35926_" from metal1 to via1 in cell OFB.
+Moving label "_35974_" from metal1 to via1 in cell OFB.
+Moving label "_36006_" from metal1 to viali in cell OFB.
+Moving label "_36228_" from metal2 to via2 in cell OFB.
+Moving label "_36236_" from metal2 to via2 in cell OFB.
+Moving label "_36246_" from metal2 to via2 in cell OFB.
+Moving label "_36339_" from metal2 to via2 in cell OFB.
+Moving label "_36347_" from metal2 to via2 in cell OFB.
+Moving label "_36588_" from metal1 to via1 in cell OFB.
+Moving label "_36652_" from metal1 to via1 in cell OFB.
+Moving label "_36680_" from metal1 to via1 in cell OFB.
+Moving label "_36686_" from metal2 to via1 in cell OFB.
+Moving label "_36696_" from metal1 to via1 in cell OFB.
+Moving label "_36728_" from metal2 to via2 in cell OFB.
+Moving label "_36852_" from metal2 to via2 in cell OFB.
+Moving label "_36862_" from metal1 to viali in cell OFB.
+Moving label "_36914_" from metal2 to via2 in cell OFB.
+Moving label "_36926_" from metal2 to via2 in cell OFB.
+Moving label "_36929_" from metal1 to viali in cell OFB.
+Moving label "_36982_" from metal2 to via2 in cell OFB.
+Moving label "_37048_" from metal2 to via2 in cell OFB.
+Moving label "_37049_" from metal2 to via1 in cell OFB.
+Moving label "_37129_" from metal1 to viali in cell OFB.
+Moving label "_37191_" from metal1 to via1 in cell OFB.
+Moving label "_37198_" from metal1 to via1 in cell OFB.
+Moving label "_37313_" from metal1 to via1 in cell OFB.
+Moving label "_37331_" from metal2 to via2 in cell OFB.
+Moving label "_37364_" from metal2 to via2 in cell OFB.
+Moving label "_37366_" from metal2 to via1 in cell OFB.
+Moving label "_37375_" from metal1 to via1 in cell OFB.
+Moving label "_37436_" from metal1 to viali in cell OFB.
+Moving label "_37455_" from metal2 to via2 in cell OFB.
+Moving label "_37488_" from metal2 to via2 in cell OFB.
+Moving label "_37508_" from metal2 to via2 in cell OFB.
+Moving label "_37513_" from metal1 to viali in cell OFB.
+Moving label "_37582_" from metal2 to via2 in cell OFB.
+Moving label "_37835_" from metal2 to via2 in cell OFB.
+Moving label "_37899_" from metal1 to via1 in cell OFB.
+Moving label "_37915_" from metal1 to viali in cell OFB.
+Moving label "data_in[25]" from metal2 to via2 in cell OFB.
+Moving label "data_in[60]" from metal2 to via2 in cell OFB.
+Moving label "data_in[61]" from metal2 to via2 in cell OFB.
+Moving label "data_in[62]" from metal2 to via2 in cell OFB.
+Moving label "data_out[24]" from metal2 to via2 in cell OFB.
+Moving label "data_out[29]" from metal2 to via2 in cell OFB.
+Moving label "data_out[30]" from metal2 to via2 in cell OFB.
+Moving label "data_out[31]" from metal2 to via2 in cell OFB.
+Moving label "data_out[54]" from metal2 to via2 in cell OFB.
+Moving label "data_out[57]" from metal2 to via2 in cell OFB.
+Moving label "data_out[59]" from metal2 to via2 in cell OFB.
+Moving label "data_out[63]" from metal2 to via2 in cell OFB.
+Moving label "iv[22]" from metal2 to via2 in cell OFB.
+Moving label "iv[29]" from metal2 to via2 in cell OFB.
+Moving label "iv[63]" from metal2 to via2 in cell OFB.
+Moving label "key[62]" from metal2 to via2 in cell OFB.
+Moving label "net1017" from metal1 to via1 in cell OFB.
+Moving label "net1028" from metal2 to via2 in cell OFB.
+Moving label "net1045" from metal2 to via2 in cell OFB.
+Moving label "net1076" from metal2 to via2 in cell OFB.
+Moving label "net108" from metal2 to via2 in cell OFB.
+Moving label "net112" from metal2 to via2 in cell OFB.
+Moving label "net114" from metal2 to via2 in cell OFB.
+Moving label "net115" from metal2 to via2 in cell OFB.
+Moving label "net1153" from metal2 to via2 in cell OFB.
+Moving label "net1156" from metal2 to via2 in cell OFB.
+Moving label "net1159" from metal2 to via2 in cell OFB.
+Moving label "net1207" from metal2 to via2 in cell OFB.
+Moving label "net1209" from metal2 to via2 in cell OFB.
+Moving label "net1218" from metal3 to via3 in cell OFB.
+Moving label "net1247" from metal2 to via2 in cell OFB.
+Moving label "net1260" from metal2 to via2 in cell OFB.
+Moving label "net1268" from metal3 to via3 in cell OFB.
+Moving label "net1278" from metal1 to via1 in cell OFB.
+Moving label "net1288" from metal2 to via2 in cell OFB.
+Moving label "net1312" from metal2 to via2 in cell OFB.
+Moving label "net1331" from metal2 to via2 in cell OFB.
+Moving label "net134" from metal2 to via2 in cell OFB.
+Moving label "net1357" from metal2 to via2 in cell OFB.
+Moving label "net136" from metal2 to via2 in cell OFB.
+Moving label "net1383" from metal3 to via3 in cell OFB.
+Moving label "net1404" from metal2 to via2 in cell OFB.
+Moving label "net141" from metal2 to via2 in cell OFB.
+Moving label "net143" from metal2 to via2 in cell OFB.
+Moving label "net144" from metal3 to via3 in cell OFB.
+Moving label "net1461" from metal2 to via2 in cell OFB.
+Moving label "net1485" from metal2 to via2 in cell OFB.
+Moving label "net150" from metal3 to via3 in cell OFB.
+Moving label "net1500" from metal2 to via2 in cell OFB.
+Moving label "net1501" from metal2 to via2 in cell OFB.
+Moving label "net1509" from metal2 to via2 in cell OFB.
+Moving label "net1543" from metal2 to via2 in cell OFB.
+Moving label "net1547" from metal2 to via2 in cell OFB.
+Moving label "net1553" from metal2 to via2 in cell OFB.
+Moving label "net1573" from metal2 to via2 in cell OFB.
+Moving label "net1588" from metal2 to via2 in cell OFB.
+Moving label "net1599" from metal2 to via2 in cell OFB.
+Moving label "net1608" from metal2 to via2 in cell OFB.
+Moving label "net161" from metal3 to via3 in cell OFB.
+Moving label "net1611" from metal2 to via2 in cell OFB.
+Moving label "net1618" from metal2 to via2 in cell OFB.
+Moving label "net1628" from metal2 to via2 in cell OFB.
+Moving label "net1645" from metal1 to viali in cell OFB.
+Moving label "net1689" from metal2 to via2 in cell OFB.
+Moving label "net1704" from metal1 to viali in cell OFB.
+Moving label "net1797" from metal2 to via1 in cell OFB.
+Moving label "net190" from metal2 to via2 in cell OFB.
+Moving label "net202" from metal2 to via1 in cell OFB.
+Moving label "net207" from metal2 to via2 in cell OFB.
+Moving label "net242" from metal3 to via3 in cell OFB.
+Moving label "net253" from metal3 to via3 in cell OFB.
+Moving label "net255" from metal1 to via1 in cell OFB.
+Moving label "net325" from metal3 to via3 in cell OFB.
+Moving label "net327" from metal2 to via2 in cell OFB.
+Moving label "net346" from metal3 to via3 in cell OFB.
+Moving label "net354" from metal2 to via2 in cell OFB.
+Moving label "net365" from metal2 to via2 in cell OFB.
+Moving label "net373" from metal1 to viali in cell OFB.
+Moving label "net393" from metal2 to via2 in cell OFB.
+Moving label "net402" from metal2 to via2 in cell OFB.
+Moving label "net418" from metal2 to via2 in cell OFB.
+Moving label "net453" from metal2 to via2 in cell OFB.
+Moving label "net456" from metal2 to via2 in cell OFB.
+Moving label "net482" from metal2 to via2 in cell OFB.
+Moving label "net484" from metal1 to via1 in cell OFB.
+Moving label "net502" from metal2 to via2 in cell OFB.
+Moving label "net542" from metal2 to via2 in cell OFB.
+Moving label "net567" from metal2 to via2 in cell OFB.
+Moving label "net572" from metal2 to via2 in cell OFB.
+Moving label "net578" from metal2 to via2 in cell OFB.
+Moving label "net583" from metal2 to via2 in cell OFB.
+Moving label "net613" from metal2 to via2 in cell OFB.
+Moving label "net621" from metal2 to via2 in cell OFB.
+Moving label "net633" from metal2 to via2 in cell OFB.
+Moving label "net646" from metal2 to via2 in cell OFB.
+Moving label "net654" from metal2 to via2 in cell OFB.
+Moving label "net709" from metal2 to via2 in cell OFB.
+Moving label "net710" from metal2 to via2 in cell OFB.
+Moving label "net723" from metal2 to via2 in cell OFB.
+Moving label "net745" from metal2 to via1 in cell OFB.
+Moving label "net748" from metal2 to via2 in cell OFB.
+Moving label "net769" from metal2 to via2 in cell OFB.
+Moving label "net783" from metal3 to via3 in cell OFB.
+Moving label "net790" from metal2 to via2 in cell OFB.
+Moving label "net793" from metal2 to via2 in cell OFB.
+Moving label "net837" from metal3 to via3 in cell OFB.
+Moving label "net841" from metal2 to via2 in cell OFB.
+Moving label "net848" from metal2 to via2 in cell OFB.
+Moving label "net869" from metal2 to via2 in cell OFB.
+Moving label "net873" from metal2 to via2 in cell OFB.
+Moving label "net891" from metal2 to via2 in cell OFB.
+Moving label "net943" from metal2 to via2 in cell OFB.
+Moving label "net965" from metal2 to via1 in cell OFB.
+Moving label "net972" from metal2 to via2 in cell OFB.
+Moving label "net974" from metal2 to via2 in cell OFB.
+Moving label "net978" from metal2 to via2 in cell OFB.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  893.785 x 904.505  ( 0.000,  0.000), ( 893.785,  904.505)  808432.938
+lambda:   89378.50 x 90450.50  (  0.00,  0.00 ), ( 89378.50,  90450.50)  8084329984.00
+internal: 178757 x 180901  (     0,  0    ), ( 178757,  180901)  32337320057
+   Copying output for cell sky130_ef_sc_hd__decap_12 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_3 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__fill_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__tapvpwrvgnd_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__fill_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__diode_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_16 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21boi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ba_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ba_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21bai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21bai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21bai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21boi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o32ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_12 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o32a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o41a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dlygate4sd1_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dlymetal6s2s_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o32ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2bb2o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dlymetal6s4s_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2bb2a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ba_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o32a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2bb2o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21boi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2bb2a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dlygate4sd3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and4_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and4b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2111a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2111o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o41a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2111a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a41o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2111o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o41a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4bb_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Generating output for cell OFB
+[INFO] GDS Write Complete
