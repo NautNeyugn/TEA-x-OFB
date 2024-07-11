@@ -29,8 +29,7 @@ Time: 430000, data_in: ac7457261c343c63, data_out: 0011223344556677
 | IO   | 322   | 500    | 64.4         |
 | BUFG | 1     | 32     | 3.125        |
 
-![Summary](/img/schematic.jpg)
-![On-Chip](/img/layout.jpg)
+![Layout](/img/layout.jpg)
 #### Implementation
 `xdc.xdc:`
 ```
