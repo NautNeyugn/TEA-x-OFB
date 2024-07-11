@@ -1,8 +1,8 @@
 # TEA x OFB
- implements the OFB mode TEA algorithm
+ Thực hiện thuật toán TEA (Tiny Encryption Algorithm) ở chế độ OFB (Output Feedback)
 ## Cơ sở lý thuyết
 + Thuật toán **TEA**: ở [đây](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm)
-+ Chế độ vận hành **OFB**: ở [đây](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
++ Chế độ **OFB**: ở [đây](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
 ## Các kết quả
 ### Vivado
 + Product family: Artix-7
@@ -25,4 +25,24 @@ create_clock -period 175.000 -name clk -waveform {0.000 87.500} -add [get_ports 
 | FF   | 128   | 269200 | 0.04754829   |
 | IO   | 322   | 500    | 64.4         |
 | BUFG | 1     | 32     | 3.125        |
+
+#### Timing
+- Setup
++ Worst Negative Slack (WNS): 1.397 ns
++ Total Negative Slack (TNS): 0 ns
++ Number of Falling Endpoints: 0
++ Total Number of Endpoints: 128
+
+- Hold
++ Worst Hold Slack (WHS): 13.861 ns
++ Total Hold Slack (THS): 0 ns
++ Number of Falling Endpoints: 0
++ Total Number of Endpoints: 128
+
+- Pulse Width
++ Worst Pulse Width Slack (WPWS): 87 ns
++ Total Pulse Width Negative Slack (TPWS): 0 ns
++ Number of Falling Endpoints: 0
++ Total Number of Endpoints: 129
+
 ### OpenLane
