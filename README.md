@@ -46,8 +46,8 @@ create_clock -period 175.000 -name clk -waveform {0.000 87.500} -add [get_ports 
     - Total Number of Endpoints: 129
 
 #### Power
-![Summary](/img/summary.png)
-![On-Chip](/img/onchip.png)
+![Summary](/img/summary.jpg)
+![On-Chip](/img/onchip.jpg)
 
 ### OpenLane
 `config.json`
