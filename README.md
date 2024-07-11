@@ -45,4 +45,8 @@ create_clock -period 175.000 -name clk -waveform {0.000 87.500} -add [get_ports 
     - Number of Falling Endpoints: 0
     - Total Number of Endpoints: 129
 
+#### Power
+![Summary][https://imgur.com/a/s2AGPNJ]
+![On-Chip][https://imgur.com/a/VXppzXr]
+
 ### OpenLane
