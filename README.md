@@ -10,6 +10,14 @@
 
 #### Simulation
 ![Simulation](/img/simulation.jpg)
+Tcl console:
+```
+Time: 70000, data_in: 0123456789abcdef, data_out: ad463072d1ca97fb
+Time: 190000, data_in: ad463072d1ca97fb, data_out: 0123456789abcdef
+Time: 310000, data_in: 0011223344556677, data_out: ac7457261c343c63
+Time: 430000, data_in: ac7457261c343c63, data_out: 0011223344556677
+```
+
 #### Schematic
 ![Schematic](/img/schematic.jpg)
 
