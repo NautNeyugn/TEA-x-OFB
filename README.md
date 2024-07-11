@@ -1,12 +1,12 @@
 # TEA x OFB
  Thực hiện thuật toán TEA (Tiny Encryption Algorithm) ở chế độ OFB (Output Feedback)
 ## Cơ sở lý thuyết
-+ Thuật toán **TEA**: ở [đây](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm)
-+ Chế độ **OFB**: ở [đây](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
+- Thuật toán **TEA**: ở [đây](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm)
+- Chế độ **OFB**: ở [đây](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
 ## Các kết quả
 ### Vivado
-+ Product family: Artix-7
-+ Project part: xc7a200tiffg1156-1L
+- Product family: Artix-7
+- Project part: xc7a200tiffg1156-1L
 #### Synthesis
 |Resource|Estimation|Available|Ultilization \%|
 |--------------|------- |------|-------|
@@ -28,21 +28,21 @@ create_clock -period 175.000 -name clk -waveform {0.000 87.500} -add [get_ports 
 
 #### Timing
 - Setup
-+ Worst Negative Slack (WNS): 1.397 ns
-+ Total Negative Slack (TNS): 0 ns
-+ Number of Falling Endpoints: 0
-+ Total Number of Endpoints: 128
+    - Worst Negative Slack (WNS): 1.397 ns
+    - Total Negative Slack (TNS): 0 ns
+    - Number of Falling Endpoints: 0
+    - Total Number of Endpoints: 128
 
 - Hold
-+ Worst Hold Slack (WHS): 13.861 ns
-+ Total Hold Slack (THS): 0 ns
-+ Number of Falling Endpoints: 0
-+ Total Number of Endpoints: 128
+    - Worst Hold Slack (WHS): 13.861 ns
+    - Total Hold Slack (THS): 0 ns
+    - Number of Falling Endpoints: 0
+    - Total Number of Endpoints: 128
 
 - Pulse Width
-+ Worst Pulse Width Slack (WPWS): 87 ns
-+ Total Pulse Width Negative Slack (TPWS): 0 ns
-+ Number of Falling Endpoints: 0
-+ Total Number of Endpoints: 129
+    - Worst Pulse Width Slack (WPWS): 87 ns
+    - Total Pulse Width Negative Slack (TPWS): 0 ns
+    - Number of Falling Endpoints: 0
+    - Total Number of Endpoints: 129
 
 ### OpenLane
