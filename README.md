@@ -46,7 +46,18 @@ create_clock -period 175.000 -name clk -waveform {0.000 87.500} -add [get_ports 
     - Total Number of Endpoints: 129
 
 #### Power
-![Summary](https://imgur.com/a/s2AGPNJ)
-![On-Chip](https://imgur.com/a/VXppzXr)
+![Summary](/img/summary.png)
+![On-Chip](/img/onchip.png)
 
 ### OpenLane
+`config.json`
+```
+{
+  "DESIGN_NAME": "OFB",
+  "VERILOG_FILES": "dir::src/*.v",
+  "CLOCK_PERIOD": 25,
+  "CLOCK_PORT": "clk"
+}
+```
+![Summary](/img/a.jpg)
+![On-Chip](/img/b.jpg)
