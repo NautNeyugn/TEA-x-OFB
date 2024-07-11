@@ -7,6 +7,12 @@
 ### Vivado
 - Product family: Artix-7
 - Project part: xc7a200tiffg1156-1L
+
+#### Simulation
+![Simulation](/img/simulation.jpg)
+#### Schematic
+![Schematic](/img/schematic.jpg)
+
 #### Synthesis
 |Resource|Estimation|Available|Ultilization \%|
 |--------------|------- |------|-------|
@@ -14,6 +20,9 @@
 | FF   | 128   | 269200 | 0.04754829   |
 | IO   | 322   | 500    | 64.4         |
 | BUFG | 1     | 32     | 3.125        |
+
+![Summary](/img/schematic.jpg)
+![On-Chip](/img/layout.jpg)
 #### Implementation
 `xdc.xdc:`
 ```
