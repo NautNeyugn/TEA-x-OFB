@@ -1,7 +1,7 @@
 # TEA x OFB
  Thiết kế lõi IP thực hiện mã hóa và giải mã TEA (Tiny Encryption Algorithm) theo chế độ OFB.
 ## Cơ sở lý thuyết
-- Thuật toán **TEA**: ở [đây](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm)
+- Thuật toán **TEA**: ở [đây](https://www.tayloredge.com/reference/Mathematics/TEA-XTEA.pdf)
 - Chế độ **OFB**: ở [đây](https://www.geeksforgeeks.org/block-cipher-modes-of-operation/)
 ## Các kết quả
 ### Vivado
